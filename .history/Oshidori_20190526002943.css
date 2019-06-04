@@ -1,0 +1,459 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width: 750px) {
+    .header>.subtitle>p {
+        font-size: 24px;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+.header>.subtitle>p {
+    color: #FFFFFF;
+    flex: none;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    height: 78px;
+    line-height: 1.5;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 750px) {
+    .header {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+.header {
+    align-content: center;
+    align-items: center;
+    background: #73c6b6;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 740px;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.logo-margin {
+    margin: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .oshidori-logo {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+.oshidori-logo {
+    flex: none;
+    height: auto;
+    width: 353px;
+    margin: auto;
+    z-index: 0;
+    pointer-events: all;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo-margin {
+    margin: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .oshidori-logo {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+.oshidori-logo {
+    flex: none;
+    height: auto;
+    width: 353px;
+    margin: auto;
+    z-index: 0;
+    pointer-events: all;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* なんでも話し合いましょう、のところ*/
+.couple-discription-title {
+    padding: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .couple-discription-title {
+        padding: 10px;
+    }
+}
+
+div.couple-discription-title>p {
+    line-height: 1.4;
+    font-weight: 700;
+    font-size: 32px;
+    color: #73c6b6;
+    text-align: center;
+}
+
+/* 480px以下、モバイル用。 */
+@media screen and (max-width: 750px) {
+    div.couple-discription-title>p {
+        line-height: 1.4;
+        font-weight: 700;
+        font-size: 24px;
+        color: #73c6b6;
+        text-align: center;
+    }
+}
+
+/* 説明のところ */
+.couple-discription {
+    padding: 20px 16px 20px 16px;
+}
+
+@media screen and (max-width: 750px) {
+    .couple-discription {
+        padding: 15px 10px 15px 10px;
+    }
+}
+
+div.couple-discription>p {
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+}
+
+/* 480px以下、モバイル用。 */
+@media screen and (max-width: 750px) {
+    div.couple-discription>p {
+        font-size: 14px;
+        line-height: 1.8;
+        text-align: center;
+    }
+}
+
+/* アンケートの注意書き */
+.data-annotation {
+    padding: 5px 0px 5px 0px;
+}
+
+div.data-annotation>p {
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+/* 480px以下、モバイル用。 */
+@media screen and (max-width: 750px) {
+    div.data-annotation>p {
+        font-size: 9px;
+        line-height: 1.2;
+        text-align: center;
+    }
+}
+
+/* アプリの機能すべて、なんでも〜、すべて */
+.common-container {
+    padding: 25px 0px 25px 0px;
+    min-width: calc(100% - 300px);
+}
+
+/* 480px以下、モバイル用。 */
+@media screen and (max-width: 750px) {
+    .common-container {
+        padding: 10px 0px 10px 0px;
+        min-width: calc(100% - 100px);
+    }
+}
+
+/* アプリの機能、とかのタイトル */
+.category-title {
+    font-size: 32px;
+    text-align: center;
+    margin: 32px 0px 32px 0px;
+}
+
+@media screen and (max-width: 750px) {
+    .category-title {
+        font-size: 20px;
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+    }
+}
+
+/*みどりわく*/
+.function-container {
+    align-content: center;
+    border-bottom: solid 4px #73c6b6;
+    border-left: solid 4px #73c6b6;
+    border-right: solid 4px #73c6b6;
+    border-top: solid 4px #73c6b6;
+    border-radius: 15px;
+    padding: 20px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 14px 20px 14px;
+}
+
+/* 機能のタイトル部分のコンテナ。 */
+.function-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.function-title-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* パートナーとのやりとり */
+.function-sub-title {
+    font-size: 18px;
+}
+
+/* 480px以下、モバイル用。 */
+@media screen and (max-width: 750px) {
+    .function-sub-title {
+        font-size: 14px;
+    }
+}
+
+/* メッセージ機能 */
+.function-main-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* 480px以下、モバイル用。 */
+@media screen and (max-width: 750px) {
+    .function-main-title {
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+
+.function-number-container {
+    align-content: center;
+    align-items: center;
+    background: #73c6b6;
+    border-radius: 50%;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 50px;
+    justify-content: center;
+    width: 50px;
+}
+
+/* 480px以下、モバイル用。 */
+@media screen and (max-width: 750px) {
+    .function-number-container {
+        align-content: center;
+        align-items: center;
+        background: #73c6b6;
+        border-radius: 50%;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 30px;
+        justify-content: center;
+        width: 30px;
+    }
+}
+
+/* 番号のところ */
+.function-number-circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* 480px以下、モバイル用。 */
+@media screen and (max-width: 750px) {
+    .function-number-circle {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        text-align: center;
+    }
+}
+
+/* まるのなかの数字 */
+.function-number {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 900;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 100%;
+    justify-content: center;
+}
+
+/* 480px以下、モバイル用。 */
+@media screen and (max-width: 750px) {
+    .function-number {
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 12px;
+        font-weight: 700;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        text-align: center;
+        max-width: 100%;
+        justify-content: center;
+    }
+}
+
+/* 機能の説明と画像のcontainer */
+/* スマホ用 */
+.function-second-container {
+    display: flex;
+    flex-direction: column-reverse;
+    /*縦*/
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+/* 480px以上はPC用レイアウト */
+@media screen and (min-width: 750px) {
+
+    /* むむ、これだけminになっちゃっとる…*/
+    .function-second-container {
+        display: flex;
+        flex-direction: row;
+        /* 横 */
+        align-items: center;
+        padding: 20px 0px 30px 0px;
+        justify-content: space-between;
+    }
+}
+
+/* アプリの細かい説明のところ、pタグ */
+.discription {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+/* 480px以下、モバイル用。 */
+@media screen and (max-width: 750px) {
+    .discription {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.screenshot-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: calc(100% - 50px);
+    width: 315px;
+    margin: 10px 0px 10px 0px;
+}
+
+/* 480px以下、モバイル用。 */
+@media screen and (max-width: 750px) {
+    .screenshot-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: calc(100% - 20px);
+        width: 150px;
+        margin: 10px 0px 10px 0px;
+    }
+}
+
+.screenshot {
+    border: solid 1px #434645;
+    border-radius: 5px;
+    height: auto;
+    width: 222px;
+    max-width: 100%;
+}
+
+/* appstoreのボタン */
+.app-store-container {
+    text-align: center;
+    /* ここから！ */
+}
+
+div.app-store-container>img {
+    height: auto;
+    width: 205px;
+    max-width: 100%;
+}
+
+/*制作者のところの緑枠*/
+.developer-container {
+    align-content: center;
+    border-bottom: solid 4px #73c6b6;
+    border-left: solid 4px #73c6b6;
+    border-right: solid 4px #73c6b6;
+    border-top: solid 4px #73c6b6;
+    border-radius: 15px;
+    padding: 20px 20px 30px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 14px 20px 14px;
+}
+
+.function-description {
+    flex-direction: column;
+}
+
+.function-description-text {
+    align-content: center;
+}
